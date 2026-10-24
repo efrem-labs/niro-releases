@@ -25,11 +25,17 @@ Niro Bridge normalizes the different local interfaces used by these agents into 
 4. Pair your iPhone and Mac on the same local network.
 5. Continue your existing coding-agent sessions from the phone.
 
-For DeepSeek Harness, Niro Bridge installs a small companion plugin into your local Harness profile. The install is explicit — it happens with your approval, keeps a backup of what it touches, and is removable. Harness's own approval and sandbox behavior keep applying; the companion adds no extra network listener.
+For DeepSeek Harness, Niro uses a small companion plugin in your Harness desktop profile. In the current release you install it yourself, by running the installer bundled inside Niro Bridge and then restarting DeepSeek Harness:
+
+```bash
+node "/Applications/Niro Bridge.app/Contents/Resources/harness-plugin/install.cjs"
+```
+
+The installer only adds or updates Niro's own entry in that profile, keeps a backup, and is safe to re-run. The companion opens no TCP port — it talks to Niro Bridge over an owner-only Unix socket — and Harness's own approvals and sandbox keep applying. Other Harness profiles are not touched.
 
 ## Approve from your phone
 
-When an agent asks for permission — run this tool, write that file — you can allow or deny it from Niro for **DeepSeek Harness, ZCode, and OpenCode**. If you don't answer within 120 seconds, the decision falls back to your Mac. MiMo approvals stay on the Mac for now, so Niro shows them as "Approval required on Mac" instead of a button that couldn't act.
+When an agent asks for permission — run this tool, write that file — you can allow or deny it from Niro for **DeepSeek Harness, ZCode, and OpenCode**, while Niro is connected and in the foreground. An answer applies to that one request; it is not a permanent exemption. DeepSeek Harness hands a request back to the Mac when Niro has not been active for about 45 seconds, or when no answer arrives within 120 seconds; the other providers fall back to the Mac similarly, with timing details that can differ by provider. MiMo approvals stay on the Mac for now, so Niro shows them as "Approval required on Mac" instead of a button that couldn't act.
 
 ## Keep the conversation going
 
@@ -58,8 +64,8 @@ Download the latest build from [**Releases**](https://github.com/efrem-labs/niro
 
 - **Local network first.** Niro Bridge runs only on your Mac and advertises itself over Bonjour (`_niro._tcp`). The phone always connects to the exact endpoint discovery hands it. There is no Niro server: session traffic never passes through anything operated by EFREM Labs.
 - **Pairing is explicit.** A new iPhone is paired only after you tap Allow on the Mac. The Bridge token is delivered at that moment and stored in the iPhone Keychain; unauthenticated requests to the Bridge are rejected.
-- **Away from home, bring your own VPN.** Niro has no cloud relay and no subscription. To use it away from your local network, keep your Mac reachable through a VPN layer you control — Tailscale or a plain WireGuard tunnel both work unchanged. Niro talks to the same Bridge endpoint over the tunnel as it does at your desk, so no port forwarding on the Mac and no public exposure of the Bridge is required.
-- **Verify your download.** Bridge releases include a `SHA256SUMS.txt` next to the DMG.
+- **Away from home, bring your own network.** Niro has no cloud relay and no subscription. To use it away from your local network, your Mac must remain reachable through a network layer you set up and control — for example Tailscale. Niro talks to the same Bridge endpoint as it does at your desk; Niro itself does not require exposing the Bridge to the public internet. Remote reachability is part of your network setup — Niro does not configure or verify it.
+- **Verify your download.** The current release ships with a `SHA256SUMS.txt` next to the DMG.
 
 ## Free
 
