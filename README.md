@@ -4,13 +4,19 @@
 
 Niro is a free iPhone companion for the coding agents running on your Mac. Pick up a session, send the next instruction, check progress, and switch between supported providers without staying at your desk.
 
-[**App Store**](https://apps.apple.com/app/niro/id6815434350) · [**Website**](https://niro-2uw.pages.dev) · [**Download Niro Bridge**](https://github.com/efrem-labs/niro-releases/releases/latest)
+[**App Store**](https://apps.apple.com/app/niro/id6815434350) · [**Website**](https://niro.efremlee.com) · [**Download Niro Bridge**](https://github.com/efrem-labs/niro-releases/releases/latest)
 
 ![Niro — Your coding agents, on your phone](assets/01-your-coding-agents.png)
 
 ## Current release
 
-**Release v0.2.1 (2026-10-25): Niro for iPhone 0.1.0 + Niro Bridge 0.1.3 (build 4).** Requires iOS 17+ and macOS 13+. The Bridge download is signed and Apple-notarized. Niro and Niro Bridge are free; provider/model access follows your own setup.
+**Release v0.2.3 (2026-10-31): Niro for iPhone 0.2.2 (build 11) + Niro Bridge 0.1.5 (build 6).**
+
+- iPhone app 0.2.2 is live on the App Store (iOS 17+).
+- Niro Bridge 0.1.5 (macOS 13+) is the current Mac download: signed, notarized, and it adds **OpenCode interactive questions** — single/multi-select prompts, custom answers and cancel now reach the phone. Earlier Bridges still work for everything else.
+- Niro and Niro Bridge are free; provider/model access follows your own setup.
+
+Release assets: [v0.2.3](https://github.com/efrem-labs/niro-releases/releases/tag/v0.2.3) (Bridge) · earlier: [v0.2.2](https://github.com/efrem-labs/niro-releases/releases/tag/v0.2.2) (Bridge 0.1.4).
 
 ## Supported agents
 
@@ -30,6 +36,7 @@ Features depend on the agent integration; availability is shown in Niro rather t
 | Existing sessions, chat, streaming replies, task progress | Yes | Yes | Yes | Yes |
 | Stop a running task from Niro | On Mac | Yes | Yes | Yes |
 | Answer permission requests from Niro | On Mac | Yes | Yes | Yes |
+| Answer interactive questions from Niro | On Mac | Yes (Bridge 0.1.5+) | On Mac | Yes |
 | Browse workspace folders and read files | Yes | Yes | Yes | Yes |
 | Send file attachments | Yes | Yes | Unavailable | Yes |
 | View change diffs | Yes | Yes | Unavailable | Unavailable |
@@ -97,7 +104,7 @@ Niro is completely free. Optional in-app tips support EFREM Labs and do not unlo
 
 Niro 是 Mac 上 Coding Agent 的独立 iPhone 客户端，通过 Niro Bridge 接入 **MiMo Desktop、OpenCode、ZCode 和 DeepSeek Harness（DSH）**，与 Norna Loom 是不同产品。
 
-- 当前正式版本：iPhone App **0.1.0**、Mac Bridge **0.1.3**、GitHub Release **v0.2.1**。需要 iOS 17+、macOS 13+；Mac 安装包已签名并通过 Apple 公证。
+- 当前正式版本：iPhone App **0.2.2**（build 11，已上架）、Mac Bridge **0.1.5**（build 6，公证发行）、GitHub Release **v0.2.3**。需要 iOS 17+、macOS 13+；Mac 安装包已签名并通过 Apple 公证。
 - 四种接入均可继续已有会话、发送指令、查看流式回复与任务进度，以及浏览工作区、读取文件。
 - **OpenCode、ZCode 和 DSH** 支持在手机上停止任务、回答权限请求；**MiMo 的停止任务和审批仍在 Mac 上完成**。
 - 文件附件：MiMo Desktop、OpenCode、DSH 支持，ZCode 暂不支持。变更差异：MiMo Desktop、OpenCode 支持，ZCode、DSH 暂不支持。均不支持删除会话；工作区查看不是完整文件管理器。
@@ -108,9 +115,9 @@ Niro 是 Mac 上 Coding Agent 的独立 iPhone 客户端，通过 Niro Bridge �
 
 ## Support
 
-For installation and connection help, start with [the download page and FAQ](https://niro-2uw.pages.dev/#faq-title) and the setup steps above. Keep the Mac and the chosen coding agents running, use the same LAN for pairing, and approve the phone on the Mac. DSH also needs its companion enabled; invalid OpenCode credentials must be corrected on the Mac. For remote access, check your own Tailscale/network reachability. Do not publish pairing tokens or provider credentials in support requests.
+For installation and connection help, start with [the download page and FAQ](https://niro.efremlee.com/#faq-title) and the setup steps above. Keep the Mac and the chosen coding agents running, use the same LAN for pairing, and approve the phone on the Mac. DSH also needs its companion enabled; invalid OpenCode credentials must be corrected on the Mac. For remote access, check your own Tailscale/network reachability. For bug reports and questions, open an issue in this repository or read [SUPPORT.md](https://github.com/efrem-labs/niro-releases/blob/main/SUPPORT.md). Do not publish pairing tokens or provider credentials in support requests.
 
-安装与连接问题请先查看[官网下载与常见问题](https://niro-2uw.pages.dev/#faq-title)及上方设置步骤。首次配对时保持同一局域网、Mac 与代理运行，并在 Mac 上允许连接；DSH 还需伴随组件。请勿公开配对令牌或代理凭据。
+安装与连接问题请先查看[官网下载与常见问题](https://niro.efremlee.com/#faq-title)及上方设置步骤。首次配对时保持同一局域网、Mac 与代理运行，并在 Mac 上允许连接；DSH 还需伴随组件。请勿公开配对令牌或代理凭据。
 
 ## About this repository
 
