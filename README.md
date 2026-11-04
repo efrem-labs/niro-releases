@@ -13,12 +13,13 @@ Niro is a free iPhone companion for the coding agents running on your Mac. Pick 
 
 Black Titanium previews of the 0.3.0 release candidate. The current public iPhone App Store version remains 0.2.2.
 
-<table><tr>
-<td width="25%" align="center"><a href="assets/black-titanium-0.3/tasks.png"><img src="assets/black-titanium-0.3/tasks.png" alt="Niro Live Activities" width="240"></a><br><strong>Live Activities</strong></td>
-<td width="25%" align="center"><a href="assets/black-titanium-0.3/projects.png"><img src="assets/black-titanium-0.3/projects.png" alt="Niro Projects" width="240"></a><br><strong>Projects</strong></td>
-<td width="25%" align="center"><a href="assets/black-titanium-0.3/conversation.png"><img src="assets/black-titanium-0.3/conversation.png" alt="Niro Conversation" width="240"></a><br><strong>Conversation</strong></td>
-<td width="25%" align="center"><a href="assets/black-titanium-0.3/connection.png"><img src="assets/black-titanium-0.3/connection.png" alt="Niro Connection" width="240"></a><br><strong>Connection</strong></td>
-</tr></table>
+![Niro Live Activities](assets/black-titanium-0.3/feature-live-activities.png)
+
+![Niro Projects](assets/black-titanium-0.3/feature-projects.png)
+
+![Niro Conversation](assets/black-titanium-0.3/feature-conversation.png)
+
+![Niro Connection](assets/black-titanium-0.3/feature-connection.png)
 
 ## Current release
 
