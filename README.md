@@ -10,13 +10,14 @@ Niro is a free iPhone companion for the coding agents running on your Mac. Pick 
 
 ## Current release
 
-**Release v0.2.3 (2026-10-31): Niro for iPhone 0.2.2 (build 11) + Niro Bridge 0.1.5 (build 6).**
+**Mac installer update (2026-11-04): Niro Bridge 0.1.5 (build 6), Black Titanium package built November 3. Niro for iPhone 0.2.2 remains the public App Store release.**
 
+- Current Mac installer: [Black Titanium refresh](https://github.com/efrem-labs/niro-releases/releases/tag/bridge-0.1.5-black-titanium), with the current ribbon app/menu icons. The app version remains 0.1.5 (6); the package filename identifies this refresh.
 - iPhone app 0.2.2 is live on the App Store (iOS 17+).
 - Niro Bridge 0.1.5 (macOS 13+) is the current Mac download: signed, notarized, and it adds **OpenCode interactive questions** — single/multi-select prompts, custom answers and cancel now reach the phone. Earlier Bridges still work for everything else.
 - Niro and Niro Bridge are free; provider/model access follows your own setup.
 
-Release assets: [v0.2.3](https://github.com/efrem-labs/niro-releases/releases/tag/v0.2.3) (Bridge) · earlier: [v0.2.2](https://github.com/efrem-labs/niro-releases/releases/tag/v0.2.2) (Bridge 0.1.4).
+Release assets: [Black Titanium installer](https://github.com/efrem-labs/niro-releases/releases/tag/bridge-0.1.5-black-titanium) (current Bridge package) · earlier: [v0.2.3](https://github.com/efrem-labs/niro-releases/releases/tag/v0.2.3) (October 31 package) · earlier: [v0.2.2](https://github.com/efrem-labs/niro-releases/releases/tag/v0.2.2) (Bridge 0.1.4).
 
 ## Supported agents
 
