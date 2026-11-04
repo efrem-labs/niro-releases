@@ -6,7 +6,19 @@ Niro is a free iPhone companion for the coding agents running on your Mac. Pick 
 
 [**App Store**](https://apps.apple.com/app/niro/id6815434350) · [**Website**](https://niro.efremlee.com) · [**Download Niro Bridge**](https://github.com/efrem-labs/niro-releases/releases/latest)
 
-![Niro — Your coding agents, on your phone](assets/01-your-coding-agents.png)
+![Niro — Your coding agents, on your iPhone](assets/black-titanium-0.3/niro-cover.jpg)
+
+
+## Niro 0.3.0 preview
+
+Black Titanium previews of the 0.3.0 release candidate. The current public iPhone App Store version remains 0.2.2.
+
+<table><tr>
+<td width="25%" align="center"><a href="assets/black-titanium-0.3/tasks.png"><img src="assets/black-titanium-0.3/tasks.png" alt="Niro Live Activities" width="240"></a><br><strong>Live Activities</strong></td>
+<td width="25%" align="center"><a href="assets/black-titanium-0.3/projects.png"><img src="assets/black-titanium-0.3/projects.png" alt="Niro Projects" width="240"></a><br><strong>Projects</strong></td>
+<td width="25%" align="center"><a href="assets/black-titanium-0.3/conversation.png"><img src="assets/black-titanium-0.3/conversation.png" alt="Niro Conversation" width="240"></a><br><strong>Conversation</strong></td>
+<td width="25%" align="center"><a href="assets/black-titanium-0.3/connection.png"><img src="assets/black-titanium-0.3/connection.png" alt="Niro Connection" width="240"></a><br><strong>Connection</strong></td>
+</tr></table>
 
 ## Current release
 
@@ -69,13 +81,9 @@ Background notifications are best-effort. There is no always-on remote push serv
 
 ## Keep the conversation going
 
-![Continue a coding-agent session from your iPhone](assets/03-keep-the-conversation-going.png)
-
 Read the response, add a follow-up, and keep a task moving while you are away from the Mac.
 
 ## Your setup, your models
-
-![Choose from supported providers and their available models](assets/04-your-setup-your-models.png)
 
 Niro uses the providers and models already available through your Mac setup. Availability varies by provider and configuration.
 
