@@ -9,9 +9,9 @@ Niro is a free iPhone companion for the coding agents running on your Mac. Pick 
 ![Niro — Your coding agents, on your iPhone](assets/black-titanium-0.3/niro-cover.jpg)
 
 
-## Niro 0.3.0 preview
+## Niro 0.3.0 — available on the App Store
 
-Black Titanium previews of the 0.3.0 release candidate. The current public iPhone App Store version remains 0.2.2.
+Black Titanium screenshots of Niro 0.3.0, officially released for iPhone on November 4, 2026. This is the current public App Store version.
 
 ![Niro Live Activities](assets/black-titanium-0.3/feature-live-activities.png)
 
@@ -23,10 +23,10 @@ Black Titanium previews of the 0.3.0 release candidate. The current public iPhon
 
 ## Current release
 
-**Mac installer update (2026-11-04): Niro Bridge 0.1.5 (build 6), Black Titanium package built November 3. Niro for iPhone 0.2.2 remains the public App Store release.**
+**Current public versions (2026-11-04): Niro for iPhone 0.3.0 (App Store) and Niro Bridge 0.1.5 (build 6, macOS). The refreshed Black Titanium Bridge package was built on November 3.**
 
 - Current Mac installer: [Black Titanium refresh](https://github.com/efrem-labs/niro-releases/releases/tag/bridge-0.1.5-black-titanium), with the current ribbon app/menu icons. The app version remains 0.1.5 (6); the package filename identifies this refresh.
-- iPhone app 0.2.2 is live on the App Store (iOS 17+).
+- Niro for iPhone **0.3.0** is live on the App Store (iOS 17+): project-first workspace, source filters, search/collapse/archive, refreshed black-titanium/light visuals, and improved Live Activity stability.
 - Niro Bridge 0.1.5 (macOS 13+) is the current Mac download: signed, notarized, and it adds **OpenCode interactive questions** — single/multi-select prompts, custom answers and cancel now reach the phone. Earlier Bridges still work for everything else.
 - Niro and Niro Bridge are free; provider/model access follows your own setup.
 
@@ -114,7 +114,7 @@ Niro is completely free. Optional in-app tips support EFREM Labs and do not unlo
 
 Niro 是 Mac 上 Coding Agent 的独立 iPhone 客户端，通过 Niro Bridge 接入 **MiMo Desktop、OpenCode、ZCode 和 DeepSeek Harness（DSH）**，与 Norna Loom 是不同产品。
 
-- 当前正式版本：iPhone App **0.2.2**（build 11，已上架）、Mac Bridge **0.1.5**（build 6，公证发行）、GitHub Release **v0.2.3**。需要 iOS 17+、macOS 13+；Mac 安装包已签名并通过 Apple 公证。
+- 当前正式版本：iPhone App **0.3.0**（2026 年 11 月 4 日已上架）、Mac Bridge **0.1.5**（build 6，公证发行）、当前 Bridge 下载标签 **bridge-0.1.5-black-titanium**。需要 iOS 17+、macOS 13+；Mac 安装包已签名并通过 Apple 公证。
 - 四种接入均可继续已有会话、发送指令、查看流式回复与任务进度，以及浏览工作区、读取文件。
 - **OpenCode、ZCode 和 DSH** 支持在手机上停止任务、回答权限请求；**MiMo 的停止任务和审批仍在 Mac 上完成**。
 - 文件附件：MiMo Desktop、OpenCode、DSH 支持，ZCode 暂不支持。变更差异：MiMo Desktop、OpenCode 支持，ZCode、DSH 暂不支持。均不支持删除会话；工作区查看不是完整文件管理器。
