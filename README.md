@@ -6,20 +6,20 @@ Niro is a free iPhone companion for the coding agents running on your Mac. Pick 
 
 [**App Store**](https://apps.apple.com/app/niro/id6815434350) · [**Website**](https://niro.efremlee.com) · [**Download Niro Bridge**](https://github.com/efrem-labs/niro-releases/releases/latest)
 
-![Niro — Your coding agents, on your iPhone](assets/black-titanium-0.3/niro-cover.jpg)
+![Niro — Your coding agents, on your iPhone](assets/black-titanium-0.3/official-cover.png)
 
 
 ## Niro 0.3.0 — available on the App Store
 
 Black Titanium screenshots of Niro 0.3.0, officially released for iPhone on November 4, 2026. This is the current public App Store version.
 
-![Niro Live Activities](assets/black-titanium-0.3/feature-live-activities.png)
+![Niro Live Activities](assets/black-titanium-0.3/official-live-activities.png)
 
-![Niro Projects](assets/black-titanium-0.3/feature-projects.png)
+![Niro Projects](assets/black-titanium-0.3/official-projects.png)
 
-![Niro Conversation](assets/black-titanium-0.3/feature-conversation.png)
+![Niro Conversation](assets/black-titanium-0.3/official-conversation.png)
 
-![Niro Connection](assets/black-titanium-0.3/feature-connection.png)
+![Niro Connection](assets/black-titanium-0.3/official-connection.png)
 
 ## Current release
 
