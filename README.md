@@ -9,6 +9,25 @@ Niro is a free iPhone companion for the coding agents running on your Mac. Pick 
 ![Niro — Your coding agents, on your iPhone](assets/black-titanium-0.3/official-cover.png)
 
 
+## NIRO 0.4 — Coming Soon
+
+We're working on the next major NIRO update. Here's a first look at what's in development:
+
+- **More computers** — Mac Bridge is available now; Windows and Linux Bridge support is undergoing testing.
+- **More coding-agent integrations** — current public support includes DeepSeek Harness, OpenCode, ZCode, and MiMo Desktop. We're testing **Qwen Code, Kimi Code, CodeBuddy, and WorkBuddy** for the next release.
+- **Search and project context** — cross-provider discovery and a path back to the original conversation.
+- **A more complete workflow** — read-aloud, clearer task status, and issue reporting with diagnostics.
+
+**Preview only.** Features are under development and subject to final validation. The images below are conceptual previews, not final product screenshots. **NIRO 0.4 is not yet available**; the App Store version remains **0.3.0**.
+
+| Bridge & agents | Search & context | Experience & feedback |
+|:--:|:--:|:--:|
+| <img src="assets/preview-0.4/01_More_Computers_and_Agents_EN.png" alt="Niro 0.4: More computers and agents" width="270"> | <img src="assets/preview-0.4/02_Search_and_Project_Context_EN.png" alt="Niro 0.4: Search and project context" width="270"> | <img src="assets/preview-0.4/03_Experience_and_Feedback_EN.png" alt="Niro 0.4: Read aloud, status and reporting" width="270"> |
+
+[**View the official bilingual preview**](https://niro.efremlee.com/preview/)
+
+---
+
 ## Niro 0.3.0 — available on the App Store
 
 Black Titanium screenshots of Niro 0.3.0, officially released for iPhone on November 4, 2026. This is the current public App Store version.
