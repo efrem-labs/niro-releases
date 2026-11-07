@@ -4,7 +4,7 @@
 
 Niro is a free iPhone companion for the coding agents running on your Mac. Pick up a session, send the next instruction, check progress, and switch between supported providers without staying at your desk.
 
-[**App Store**](https://apps.apple.com/app/niro/id6815434350) · [**Website**](https://niro.efremlee.com) · [**Download Niro Bridge**](https://github.com/efrem-labs/niro-releases/releases/latest)
+[**App Store**](https://apps.apple.com/app/niro/id6815434350) · [**Website**](https://niro.efremlee.com/?utm_source=github&utm_medium=referral&utm_campaign=niro_03_live) · [**Download Niro Bridge**](https://github.com/efrem-labs/niro-releases/releases/latest)
 
 **Enjoying NIRO?** Click **⭐ Star** in the top-right of this repository to support its independent development and help more developers discover it. Thank you!
 
@@ -26,7 +26,7 @@ We're working on the next major NIRO update. Here's a first look at what's in de
 |:--:|:--:|:--:|
 | <img src="assets/preview-0.4/01_More_Computers_and_Agents_EN.png" alt="Niro 0.4: More computers and agents" width="270"> | <img src="assets/preview-0.4/02_Search_and_Project_Context_EN.png" alt="Niro 0.4: Search and project context" width="270"> | <img src="assets/preview-0.4/03_Experience_and_Feedback_EN.png" alt="Niro 0.4: Read aloud, status and reporting" width="270"> |
 
-[**View the official bilingual preview**](https://niro.efremlee.com/preview/)
+[**View the official bilingual preview**](https://niro.efremlee.com/preview/?utm_source=github&utm_medium=referral&utm_campaign=niro_04_preview)
 
 ---
 
