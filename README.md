@@ -6,6 +6,8 @@ Niro is a free iPhone companion for the coding agents running on your Mac. Pick 
 
 [**App Store**](https://apps.apple.com/app/niro/id6815434350) · [**Website**](https://niro.efremlee.com) · [**Download Niro Bridge**](https://github.com/efrem-labs/niro-releases/releases/latest)
 
+**Enjoying NIRO?** Click **⭐ Star** in the top-right of this repository to support its independent development and help more developers discover it. Thank you!
+
 ![Niro — Your coding agents, on your iPhone](assets/black-titanium-0.3/official-cover.png)
 
 
