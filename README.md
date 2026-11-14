@@ -4,57 +4,50 @@
 
 Niro is a free iPhone companion for the coding agents running on your Mac. Pick up a session, send the next instruction, check progress, and switch between supported providers without staying at your desk.
 
-[**App Store**](https://apps.apple.com/app/niro/id6815434350) · [**Website**](https://niro.efremlee.com/?utm_source=github&utm_medium=referral&utm_campaign=niro_03_live) · [**Download Niro Bridge**](https://github.com/efrem-labs/niro-releases/releases/latest)
+[**App Store**](https://apps.apple.com/app/niro/id6815434350) · [**Website**](https://niro.efremlee.com/?utm_source=github&utm_medium=referral&utm_campaign=niro_04_live) · [**Download Niro Bridge**](https://github.com/efrem-labs/niro-releases/releases/latest)
 
 **Enjoying NIRO?** Click **⭐ Star** in the top-right of this repository to support its independent development and help more developers discover it. Thank you!
 
 ![Niro — Your coding agents, on your iPhone](assets/black-titanium-0.3/official-cover.png)
 
 
-## NIRO 0.4 — Coming Soon
+## NIRO 0.4.0 — Live on the App Store
 
-We're working on the next major NIRO update. Here's a first look at what's in development:
+**Released November 14, 2026.** NIRO turns the AI coding agents running on your desktop into sessions you can genuinely continue from your iPhone. The app and its Mac Bridge are free; no NIRO account or in-app purchase is required.
 
-- **More computers** — Mac Bridge is available now; Windows and Linux Bridge support is undergoing testing.
-- **More coding-agent integrations** — current public support includes DeepSeek Harness, OpenCode, ZCode, and MiMo Desktop. We're testing **Qwen Code, Kimi Code, CodeBuddy, and WorkBuddy** for the next release.
-- **Search and project context** — cross-provider discovery and a path back to the original conversation.
-- **A more complete workflow** — read-aloud, clearer task status, and issue reporting with diagnostics.
+- **iPhone:** [NIRO 0.4.0 on the App Store](https://apps.apple.com/app/niro/id6815434350) (iOS 16+)
+- **Mac:** [Niro Bridge 0.4.0 (build 260)](https://github.com/efrem-labs/niro-releases/releases/tag/v0.4.0) (macOS 13+)
+- **Official website / installation:** https://niro.efremlee.com/download/
 
-**Preview only.** Features are under development and subject to final validation. The images below are conceptual previews, not final product screenshots. **NIRO 0.4 is not yet available**; the App Store version remains **0.3.0**.
+### What's new
 
-| Bridge & agents | Search & context | Experience & feedback |
-|:--:|:--:|:--:|
-| <img src="assets/preview-0.4/01_More_Computers_and_Agents_EN.png" alt="Niro 0.4: More computers and agents" width="270"> | <img src="assets/preview-0.4/02_Search_and_Project_Context_EN.png" alt="Niro 0.4: Search and project context" width="270"> | <img src="assets/preview-0.4/03_Experience_and_Feedback_EN.png" alt="Niro 0.4: Read aloud, status and reporting" width="270"> |
+- **Universal Search** across message content, agent timelines and supported projects.
+- **More coding agents:** Qwen Code, Kimi Code, and multi-persona Hermes, alongside MiMo Desktop, OpenCode, ZCode and DeepSeek Harness.
+- **Real mobile continuation:** pick up supported desktop agent sessions, send follow-up instructions, check progress, and respond to supported approvals without sitting at the computer.
+- **Honest provider status:** connected, offline and unconfigured integrations are shown distinctly.
+- **Voice improvements:** audible voice preview and cleaner recording-session cleanup.
 
-[**View the official bilingual preview**](https://niro.efremlee.com/preview/?utm_source=github&utm_medium=referral&utm_campaign=niro_04_preview)
+Provider capabilities depend on the specific agent and installed desktop configuration. The current GitHub v0.4.0 release contains the **Mac Bridge**. Windows and Linux Bridge work is ongoing; no Windows/Linux installer is offered as part of this Mac release.
+
+**Niro Bridge macOS security:** its bundled app is signed, Apple-notarized and has a stapled notarization ticket. The DMG's contents, checksum and Gatekeeper acceptance were checked; the outer DMG container was not separately notarized. See the release notes and SHA256SUMS file.
+
+This public repository distributes installers and support documentation; it is not the private NIRO source-code repository.
 
 ---
+## Earlier release: NIRO 0.3.0
 
-## Niro 0.3.0 — available on the App Store
-
-Black Titanium screenshots of Niro 0.3.0, officially released for iPhone on November 4, 2026. This is the current public App Store version.
+NIRO 0.3.0 introduced the Black Titanium visual system, project-first workspace and earlier Bridge integrations. The current iPhone app is **0.4.0**.
 
 ![Niro Live Activities](assets/black-titanium-0.3/official-live-activities.png)
 
 ![Niro Projects](assets/black-titanium-0.3/official-projects.png)
 
-![Niro Conversation](assets/black-titanium-0.3/official-conversation.png)
-
-![Niro Connection](assets/black-titanium-0.3/official-connection.png)
-
-## Current release
-
-**Current public versions (2026-11-04): Niro for iPhone 0.3.0 (App Store) and Niro Bridge 0.1.5 (build 6, macOS). The refreshed Black Titanium Bridge package was built on November 3.**
-
-- Current Mac installer: [Black Titanium refresh](https://github.com/efrem-labs/niro-releases/releases/tag/bridge-0.1.5-black-titanium), with the current ribbon app/menu icons. The app version remains 0.1.5 (6); the package filename identifies this refresh.
-- Niro for iPhone **0.3.0** is live on the App Store (iOS 17+): project-first workspace, source filters, search/collapse/archive, refreshed black-titanium/light visuals, and improved Live Activity stability.
-- Niro Bridge 0.1.5 (macOS 13+) is the current Mac download: signed, notarized, and it adds **OpenCode interactive questions** — single/multi-select prompts, custom answers and cancel now reach the phone. Earlier Bridges still work for everything else.
-- Niro and Niro Bridge are free; provider/model access follows your own setup.
-
-Release assets: [Black Titanium installer](https://github.com/efrem-labs/niro-releases/releases/tag/bridge-0.1.5-black-titanium) (current Bridge package) · earlier: [v0.2.3](https://github.com/efrem-labs/niro-releases/releases/tag/v0.2.3) (October 31 package) · earlier: [v0.2.2](https://github.com/efrem-labs/niro-releases/releases/tag/v0.2.2) (Bridge 0.1.4).
-
+---
 ## Supported agents
 
+- **Qwen Code** — support depends on the local desktop integration
+- **Kimi Code** — support depends on the local desktop integration
+- **Hermes** — separate persona contexts and sessions
 - **MiMo Desktop**
 - **OpenCode** — including headless `opencode serve` sessions
 - **ZCode** — per-session model choice across ZCode's own model catalog
@@ -64,7 +57,7 @@ Niro Bridge normalizes the different local interfaces used by these agents into 
 
 ## Features by provider
 
-Features depend on the agent integration; availability is shown in Niro rather than assumed.
+Capabilities vary by integration and configuration; Niro reports actual availability. The following table documents the established MiMo, OpenCode, ZCode and DSH behavior (it is not an exhaustive matrix of newer integrations).
 
 | Capability | MiMo Desktop | OpenCode | ZCode | DSH |
 | --- | --- | --- | --- | --- |
@@ -114,7 +107,7 @@ Niro uses the providers and models already available through your Mac setup. Ava
 Niro Bridge is the small macOS companion that connects Niro on iPhone to supported coding agents running on the Mac.
 
 - Menu-bar app
-- Supports MiMo Desktop, OpenCode, ZCode, and DeepSeek Harness
+- Supports Qwen Code, Kimi Code, Hermes, MiMo Desktop, OpenCode, ZCode, and DeepSeek Harness (capabilities vary by provider)
 - Local pairing with explicit approval on the Mac
 - No Niro account required
 
