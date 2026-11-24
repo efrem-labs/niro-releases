@@ -22,7 +22,7 @@ Niro is a free iPhone companion for the coding agents running on your Mac. Pick 
 ### What's new
 
 - **Universal Search** across message content, agent timelines and supported projects.
-- **More coding agents:** Qwen Code, Kimi Code, and multi-persona Hermes, alongside MiMo Desktop, OpenCode, ZCode and DeepSeek Harness.
+- **More coding agents:** Qwen Code, Kimi Code, and multi-persona Hermes, alongside MiMo Desktop, OpenCode and DeepSeek Harness.
 - **Real mobile continuation:** pick up supported desktop agent sessions, send follow-up instructions, check progress, and respond to supported approvals without sitting at the computer.
 - **Honest provider status:** connected, offline and unconfigured integrations are shown distinctly.
 - **Voice improvements:** audible voice preview and cleaner recording-session cleanup.
@@ -50,27 +50,24 @@ NIRO 0.3.0 introduced the Black Titanium visual system, project-first workspace 
 - **Hermes** — separate persona contexts and sessions
 - **MiMo Desktop**
 - **OpenCode** — including headless `opencode serve` sessions
-- **ZCode** — per-session model choice across ZCode's own model catalog
 - **DeepSeek Harness (DSH)** — connected through a small, explicitly installed local companion
 
 Niro Bridge normalizes the different local interfaces used by these agents into one phone-friendly connection. Provider credentials and model settings stay on the Mac — the phone never holds an agent's API keys.
 
 ## Features by provider
 
-Capabilities vary by integration and configuration; Niro reports actual availability. The following table documents the established MiMo, OpenCode, ZCode and DSH behavior (it is not an exhaustive matrix of newer integrations).
+NIRO 0.4.0 offers six integrations. Features vary by agent, installation and runtime; the app reports actual availability.
 
-| Capability | MiMo Desktop | OpenCode | ZCode | DSH |
-| --- | --- | --- | --- | --- |
-| Existing sessions, chat, streaming replies, task progress | Yes | Yes | Yes | Yes |
-| Stop a running task from Niro | On Mac | Yes | Yes | Yes |
-| Answer permission requests from Niro | On Mac | Yes | Yes | Yes |
-| Answer interactive questions from Niro | On Mac | Yes (Bridge 0.1.5+) | On Mac | Yes |
-| Browse workspace folders and read files | Yes | Yes | Yes | Yes |
-| Send file attachments | Yes | Yes | Unavailable | Yes |
-| View change diffs | Yes | Yes | Unavailable | Unavailable |
-| Delete sessions | Unavailable | Unavailable | Unavailable | Unavailable |
+| Agent | Integration notes |
+| --- | --- |
+| OpenCode | Verified bidirectional session continuation and supported phone approvals. |
+| DeepSeek Harness | Verified bidirectional session continuation; supported approvals via local companion. |
+| Hermes | Verified bidirectional sessions and separate personas; interactive phone approvals are not available. |
+| Qwen Code | CLI integration; desktop-native live synchronization and approvals are not fully supported. |
+| Kimi Code | Local ACP integration; desktop-native live synchronization is not fully verified. |
+| MiMo Desktop | Access existing sessions; native session creation, cancellation and approvals are not available from the phone. |
 
-Workspace access is for browsing and reading, not a general file manager. Task-driven edits remain subject to the coding agent's permissions. Models come from each provider's own configuration; ZCode supports a per-session model choice. MiMo Desktop was previously verified; an uninstalled MiMo is shown as Not installed and is not a reason to reinstall it.
+Workspace browsing, file reading, attachments, model selection and session removal vary by provider. Agent API keys and model configuration remain on the computer.
 
 ## How it works
 
@@ -90,7 +87,7 @@ The installer only adds or updates Niro's own entry in that profile, keeps a bac
 
 ## Approve from your phone
 
-When an agent asks for permission — run this tool, write that file — you can allow or deny it from Niro for **DeepSeek Harness, ZCode, and OpenCode**, while Niro is connected and in the foreground. DSH approvals apply to one action, not a permanent exemption. If the phone has not been active for about 45 seconds, a new DSH request stays on the Mac; a forwarded request returns to the Mac if unanswered after 120 seconds. Other providers keep their own approval policies and timing. MiMo approvals stay on the Mac for now, so Niro shows them as "Approval required on Mac" instead of a button that couldn't act.
+When an agent asks for permission — run this tool, write that file — you can allow or deny it from Niro for **DeepSeek Harness and OpenCode**, while Niro is connected and in the foreground. DSH approvals apply to one action, not a permanent exemption. If the phone has not been active for about 45 seconds, a new DSH request stays on the Mac; a forwarded request returns to the Mac if unanswered after 120 seconds. Other providers keep their own approval policies and timing. MiMo approvals stay on the Mac for now, so Niro shows them as "Approval required on Mac" instead of a button that couldn't act.
 
 Background notifications are best-effort. There is no always-on remote push service; keep Niro connected and in the foreground for phone approvals.
 
@@ -107,7 +104,7 @@ Niro uses the providers and models already available through your Mac setup. Ava
 Niro Bridge is the small macOS companion that connects Niro on iPhone to supported coding agents running on the Mac.
 
 - Menu-bar app
-- Supports Qwen Code, Kimi Code, Hermes, MiMo Desktop, OpenCode, ZCode, and DeepSeek Harness (capabilities vary by provider)
+- Supports Qwen Code, Kimi Code, Hermes, MiMo Desktop, OpenCode, and DeepSeek Harness (capabilities vary by provider)
 - Local pairing with explicit approval on the Mac
 - No Niro account required
 
@@ -122,20 +119,19 @@ Download the latest build from [**Releases**](https://github.com/efrem-labs/niro
 
 ## Free
 
-Niro is completely free. Optional in-app tips support EFREM Labs and do not unlock features.
+NIRO 0.4.0 is free to use, with no NIRO account or in-app purchase required. Third-party model fees may apply.
 
 ## 中文说明
 
-Niro 是 Mac 上 Coding Agent 的独立 iPhone 客户端，通过 Niro Bridge 接入 **MiMo Desktop、OpenCode、ZCode 和 DeepSeek Harness（DSH）**，与 Norna Loom 是不同产品。
+NIRO 0.4.0 已于 2026 年 11 月 14 日上架，正式支持 **DeepSeek Harness、Hermes、OpenCode、Qwen Code、Kimi Code、MiMo Desktop** 六种 Agent。
 
-- 当前正式版本：iPhone App **0.3.0**（2026 年 11 月 4 日已上架）、Mac Bridge **0.1.5**（build 6，公证发行）、当前 Bridge 下载标签 **bridge-0.1.5-black-titanium**。需要 iOS 17+、macOS 13+；Mac 安装包已签名并通过 Apple 公证。
-- 四种接入均可继续已有会话、发送指令、查看流式回复与任务进度，以及浏览工作区、读取文件。
-- **OpenCode、ZCode 和 DSH** 支持在手机上停止任务、回答权限请求；**MiMo 的停止任务和审批仍在 Mac 上完成**。
-- 文件附件：MiMo Desktop、OpenCode、DSH 支持，ZCode 暂不支持。变更差异：MiMo Desktop、OpenCode 支持，ZCode、DSH 暂不支持。均不支持删除会话；工作区查看不是完整文件管理器。
-- DSH 需手动运行上方附带的伴随组件安装器，再重启 Harness；仅更新自己的 desktop profile 条目并备份。审批为单次有效；手机约 45 秒不活跃时新请求留给 Mac，转发后 120 秒未回答则回落至 Mac。其他 Provider 遵循各自策略。
-- 在局域网配对并在 Mac 上批准；远程使用需通过你自己的网络（例如 Tailscale）保持 Mac 可达。Niro 不提供云中继，不保管代理 API Key。
-- 手机审批需保持前台连接；后台通知为尽力送达，不保证锁屏持续推送。
-- App 免费，打赏自愿、不解锁功能。此仓库仅提供发行包与文档，应用源码不公开。
+- iPhone：iOS 16+；Mac Bridge 0.4.0（build 260）：macOS 13+。当前公开安装包仅支持 macOS。
+- 跨项目、跨 Agent 全文搜索，查看会话、进度，并按各 Agent 实际能力继续任务。
+- OpenCode、DSH 已验证双向接续和支持的手机审批；Hermes 支持双向会话和多角色，暂不支持交互式手机审批。
+- Qwen Code、Kimi Code 支持本地接入，但桌面原生实时接续尚有缺口；MiMo 手机端不能原生新建会话、取消任务或审批。
+- DSH 需安装本地伴随组件（见上方命令）；手机审批需保持前台连接，超时回落至 Mac。后台通知尽力送达。
+- 初次配对需 Mac 确认；远程访问使用自己的网络（如 Tailscale）。NIRO 无云中继、不保管 Agent API Key。
+- 0.4.0 免费，无需 NIRO 账号或购买。第三方模型服务费用另计。此仓库仅提供发行包及文档。
 
 ## Support
 
